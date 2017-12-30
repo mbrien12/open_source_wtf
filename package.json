@@ -27,7 +27,8 @@
   "dependencies": {
     "@rails/webpacker": "^3.1.1",
     "normalize.css": "^7.0.0",
-    "postcss-nested": "^3.0.0"
+    "postcss-nested": "^3.0.0",
+    "typeface-league-spartan": "0.0.44"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.1",
