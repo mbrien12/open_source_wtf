@@ -1,8 +1,5 @@
-.page {
-  height: 100vh;
-  width: 700px;
-  margin: 0 auto;
-  overflow: hidden;
+body {
+  font-family: "Work Sans";
 }
 
 a {
