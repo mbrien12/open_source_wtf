@@ -1,5 +1,15 @@
 body {
   font-family: "Work Sans";
+  margin-left: 400px;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 70px;
+}
+
+p {
+  font-size: 20px;
 }
 
 a {
@@ -8,4 +18,15 @@ a {
 
 li {
   list-style: none;
+}
+
+.title-center {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+
+  p {
+    width: 80%;
+    line-height: 37px;
+  }
 }
