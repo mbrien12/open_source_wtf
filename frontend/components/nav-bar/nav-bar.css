@@ -21,11 +21,6 @@ nav {
 
   a {
     color: white;
-    font-size: 20px;
-  }
-
-  a:hover {
-    opacity: 0.8;
   }
 
   li {
@@ -39,4 +34,13 @@ nav {
     padding-top: 20px; /* This creates some space between the element and the border. */
     border-bottom: 1px solid white; /* This creates the border. Replace black with whatever color you want. */
   }
+}
+
+.menu-link-animate {
+  color: white;
+  font-size: 20px;
+}
+
+.menu-link-animate:hover {
+  font-size: 22px;
 }
