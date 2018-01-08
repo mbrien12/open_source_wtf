@@ -6323,6 +6323,10 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
+typeface-league-spartan@0.0.44:
+  version "0.0.44"
+  resolved "https://registry.yarnpkg.com/typeface-league-spartan/-/typeface-league-spartan-0.0.44.tgz#2e46658d4f9f1ffa928505d954342850cf32277f"
+
 uglify-js@^2.8.29:
   version "2.8.29"
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-2.8.29.tgz#29c5733148057bb4e1f75df35b7a9cb72e6a59dd"
