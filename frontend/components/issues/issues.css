@@ -1,0 +1,17 @@
+.issues-list {
+  ul {
+    display: flex;
+  }
+
+  li {
+    margin: 20px;
+    font-family: "League Spartan";
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 22px;
+  }
+
+  li:first-child {
+    margin-left: 0;
+  }
+}
