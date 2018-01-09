@@ -7,6 +7,8 @@ const url =
 fetch(url)
   .then(response => response.json())
   .then(data => {
-    const issueTitle = data.items[0].title;
-    issueList.innerHTML = `<li>${issueTitle}</li>`;
+    data.items.forEach(issue => {
+      const issueTitle = issue.title;
+      issueList.innerHTML += `<li>${issueTitle}</li>`;
+    });
   });
