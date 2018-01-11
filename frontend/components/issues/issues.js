@@ -9,6 +9,8 @@ fetch(url)
   .then(data => {
     data.items.forEach(issue => {
       const issueTitle = issue.title;
-      issueList.innerHTML += `<li>${issueTitle}</li>`;
+      const dateOpened = issue.created_at;
+      issueList.innerHTML += `<li>Title = ${issueTitle}</li>`;
+      issueList.innerHTML += `Opened on ${dateOpened}`;
     });
   });
