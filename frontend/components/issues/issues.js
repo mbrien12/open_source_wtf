@@ -13,9 +13,11 @@ fetch(url)
       const repoName = GitUrlParse(`${issue.html_url}`).name.split("/issues");
       const dateSplit = `"${issue.created_at}"`.split("T");
 
-      issueContainer.innerHTML += `<h3>${issue.title}</h3>
-                                   <p>${repoName[0]}</p>
-                                   <p>${dateSplit[0].substr(1)}</p>
-                                   <p>${issue.comments}</p>`;
+      issueContainer.innerHTML += `<div class="card">
+                                    <h3>${issue.title}</h3>
+                                    <p>${repoName[0]}</p>
+                                    <p>${dateSplit[0].substr(1)}</p>
+                                    <p>${issue.comments}</p>
+                                   </div>`;
     });
   });
