@@ -22,7 +22,24 @@
 }
 
 .card {
-  border: solid black 1px;
-  width: 25%;
+  border: solid #000 1px;
+  width: 27%;
   margin: 20px;
+
+  p {
+    font-size: 12px;
+  }
+}
+
+.card-title {
+  font-size: 14px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-top: 0;
+  height: 45px;
+}
+
+.card-content {
+  padding: 15px;
 }

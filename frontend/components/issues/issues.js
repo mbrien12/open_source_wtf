@@ -14,10 +14,12 @@ fetch(url)
       const dateSplit = `"${issue.created_at}"`.split("T");
 
       issueContainer.innerHTML += `<div class="card">
-                                    <h3>${issue.title}</h3>
-                                    <p>${repoName[0]}</p>
-                                    <p>${dateSplit[0].substr(1)}</p>
-                                    <p>${issue.comments}</p>
+                                    <p class="card-title">${issue.title}</p>
+                                    <div class="card-content">
+                                      <p>${repoName[0]}</p>
+                                      <p>${dateSplit[0].substr(1)}</p>
+                                      <p>${issue.comments}</p>
+                                     </div>
                                    </div>`;
     });
   });
