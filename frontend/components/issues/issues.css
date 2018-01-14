@@ -59,3 +59,12 @@
   justify-content: space-between;
   color: #9b9b9b;
 }
+
+.card-comments {
+  display: flex;
+  align-items: baseline;
+
+  p {
+    margin-left: 5px;
+  }
+}

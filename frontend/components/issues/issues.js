@@ -22,7 +22,10 @@ fetch(url)
                                       </div>
                                         <div class="card-bottom-banner">
                                           <p>${dateSplit[0].substr(1)}</p>
-                                          <p>${issue.comments}</p>
+                                            <div class="card-comments">
+                                              <i class="fa fa-comments" aria-hidden="true"></i>
+                                              <p>${issue.comments}</p>
+                                            </div>
                                         </div>
                                      </div>
                                    </div>`;
