@@ -12,8 +12,12 @@ fetch(url)
     data.items.forEach(issue => {
       const repoName = GitUrlParse(`${issue.html_url}`).name.split("/issues");
       const dateSplit = `"${issue.created_at}"`.split("T");
+      console.log(issue.html_url);
 
       issueContainer.innerHTML += `<div class="card">
+                                    <a href="${
+                                      issue.html_url
+                                    }" target="_blank"></a>
                                     <p class="card-title">${issue.title}</p>
                                     <div class="card-content">
                                       <div class="card-repo-name">
