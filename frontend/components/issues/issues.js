@@ -13,7 +13,7 @@ fetch(url)
     data.items.forEach(issue => {
       const repoName = GitUrlParse(`${issue.html_url}`).name.split("/issues");
       const dateSplit = `"${issue.created_at}"`.split("T");
-      const date = moment(`${dateSplit}`).format("DD/MM/YYYY");
+      const date = moment(`${dateSplit}`).format("Do MMMM YYYY");
       issueContainer.innerHTML += `<div class="card">
                                     <a href="${
                                       issue.html_url
