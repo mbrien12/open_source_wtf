@@ -1,6 +1,7 @@
 .issues-list {
   ul {
     display: flex;
+    margin: 50px 0;
   }
 
   li {
@@ -12,7 +13,7 @@
   }
 
   li:first-child {
-    margin-left: 0;
+    margin-left: 10px;
   }
 }
 
@@ -27,12 +28,11 @@
   margin: 20px;
 
   p {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
 .card-title {
-  font-size: 14px;
   background-color: black;
   color: white;
   padding: 10px;
@@ -42,4 +42,20 @@
 
 .card-content {
   padding: 15px;
+}
+
+.card-repo-name {
+  display: flex;
+  align-items: baseline;
+
+  p {
+    margin-left: 5px;
+    font-size: 11px;
+  }
+}
+
+.card-bottom-banner {
+  display: flex;
+  justify-content: space-between;
+  color: #9b9b9b;
 }

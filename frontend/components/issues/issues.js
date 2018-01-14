@@ -16,9 +16,14 @@ fetch(url)
       issueContainer.innerHTML += `<div class="card">
                                     <p class="card-title">${issue.title}</p>
                                     <div class="card-content">
-                                      <p>${repoName[0]}</p>
-                                      <p>${dateSplit[0].substr(1)}</p>
-                                      <p>${issue.comments}</p>
+                                      <div class="card-repo-name">
+                                        <i class="fa fa-github" aria-hidden="true"></i>
+                                        <p>${repoName[0]}</p>
+                                      </div>
+                                        <div class="card-bottom-banner">
+                                          <p>${dateSplit[0].substr(1)}</p>
+                                          <p>${issue.comments}</p>
+                                        </div>
                                      </div>
                                    </div>`;
     });
