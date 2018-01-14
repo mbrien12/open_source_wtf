@@ -1,6 +1,7 @@
 .issues-list {
   ul {
     display: flex;
+    margin: 50px 0;
   }
 
   li {
@@ -12,6 +13,65 @@
   }
 
   li:first-child {
-    margin-left: 0;
+    margin-left: 10px;
+  }
+}
+
+#issues {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: solid #000 1px;
+  width: 27%;
+  margin: 20px;
+  position: relative;
+
+  p {
+    font-size: 14px;
+  }
+
+  a {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.card-title {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-top: 0;
+  height: 45px;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-repo-name {
+  display: flex;
+  align-items: baseline;
+
+  p {
+    margin-left: 5px;
+    font-size: 11px;
+  }
+}
+
+.card-bottom-banner {
+  display: flex;
+  justify-content: space-between;
+  color: #9b9b9b;
+}
+
+.card-comments {
+  display: flex;
+  align-items: baseline;
+
+  p {
+    margin-left: 5px;
   }
 }
